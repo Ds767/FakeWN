@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">FakeWN</string>
+    <string name="button_begin">Begin</string>
+    <string name="time">2019.08.13</string>
+    <string name="score">30</string>
+    <string name="当日积分">当日积分:</string>
+    <string name="title11">文章时长</string>
+    <string name="title12">视听学习</string>
+    <string name="title13">视听学习时长</string>
+    <string name="title14">阅读文章</string>
+    <string name="title15">收藏</string>
+    <string name="title16">分享</string>
+    <string name="title21">每日答题</string>
 </resources>
