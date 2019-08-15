@@ -13,7 +13,7 @@
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/Time"
         app:layout_constraintEnd_toStartOf="@+id/Score"
-        app:srcCompat="@drawable/QG3" />
+        app:srcCompat="@drawable/qg3" />
 
     <TextView
         android:id="@+id/Score"
@@ -50,7 +50,7 @@
         android:transformPivotY="98dp"
         app:layout_constraintBottom_toTopOf="@+id/Time"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/QG2" />
+        app:srcCompat="@drawable/qg2" />
 
     <ImageView
         android:id="@+id/progress1"
@@ -60,7 +60,7 @@
         android:transformPivotY="98dp"
         app:layout_constraintBottom_toBottomOf="@+id/progress"
         app:layout_constraintEnd_toStartOf="@+id/progress"
-        app:srcCompat="@drawable/QG1" />
+        app:srcCompat="@drawable/qg1" />
 
     <ImageView
         android:id="@+id/progress2"
@@ -70,7 +70,7 @@
         android:transformPivotY="98dp"
         app:layout_constraintBottom_toBottomOf="@+id/progress1"
         app:layout_constraintEnd_toStartOf="@+id/progress1"
-        app:srcCompat="@drawable/QG1" />
+        app:srcCompat="@drawable/qg1" />
 
     <ImageView
         android:id="@+id/progress3"
@@ -80,7 +80,7 @@
         android:transformPivotY="98dp"
         app:layout_constraintBottom_toBottomOf="@+id/progress2"
         app:layout_constraintEnd_toStartOf="@+id/progress2"
-        app:srcCompat="@drawable/QG1" />
+        app:srcCompat="@drawable/qg1" />
 
     <ImageView
         android:id="@+id/progress4"
@@ -90,7 +90,7 @@
         android:transformPivotY="98dp"
         app:layout_constraintBottom_toBottomOf="@+id/progress3"
         app:layout_constraintEnd_toStartOf="@+id/progress3"
-        app:srcCompat="@drawable/QG1" />
+        app:srcCompat="@drawable/qg1" />
 
     <ImageView
         android:id="@+id/progress5"
@@ -100,7 +100,7 @@
         android:transformPivotY="98dp"
         app:layout_constraintBottom_toBottomOf="@+id/progress4"
         app:layout_constraintEnd_toStartOf="@+id/progress4"
-        app:srcCompat="@drawable/QG1" />
+        app:srcCompat="@drawable/qg1" />
 
     <ImageView
         android:id="@+id/progress6"
@@ -110,7 +110,7 @@
         android:transformPivotY="98dp"
         app:layout_constraintBottom_toBottomOf="@+id/progress5"
         app:layout_constraintEnd_toStartOf="@+id/progress5"
-        app:srcCompat="@drawable/QG1" />
+        app:srcCompat="@drawable/qg1" />
 
     <ImageView
         android:id="@+id/progress7"
@@ -120,15 +120,87 @@
         android:transformPivotY="98dp"
         app:layout_constraintBottom_toBottomOf="@+id/progress6"
         app:layout_constraintEnd_toStartOf="@+id/progress6"
-        app:srcCompat="@drawable/QG1" />
+        app:srcCompat="@drawable/qg1" />
 
-    <ImageView
-        android:id="@+id/imageView18"
+    <TextView
+        android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:alpha="0.2"
-        app:srcCompat="@drawable/webwxgetmsgimg"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="132dp"
+        android:text="@string/time1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="134dp"
+        android:text="@string/time2"
+        app:layout_constraintBottom_toTopOf="@+id/progress1"
+        app:layout_constraintEnd_toStartOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="134dp"
+        android:text="@string/time3"
+        app:layout_constraintBottom_toTopOf="@+id/progress2"
+        app:layout_constraintEnd_toStartOf="@+id/date1" />
+
+    <TextView
+        android:id="@+id/date3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="134dp"
+        android:text="@string/time4"
+        app:layout_constraintBottom_toTopOf="@+id/progress3"
+        app:layout_constraintEnd_toStartOf="@+id/date2" />
+
+    <TextView
+        android:id="@+id/date4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="134dp"
+        android:text="@string/time5"
+        app:layout_constraintBottom_toTopOf="@+id/progress4"
+        app:layout_constraintEnd_toStartOf="@+id/date3" />
+
+    <TextView
+        android:id="@+id/date5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="134dp"
+        android:text="@string/time6"
+        app:layout_constraintBottom_toTopOf="@+id/progress5"
+        app:layout_constraintEnd_toStartOf="@+id/date4" />
+
+    <TextView
+        android:id="@+id/date6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="134dp"
+        android:text="@string/time7"
+        app:layout_constraintBottom_toTopOf="@+id/progress6"
+        app:layout_constraintEnd_toStartOf="@+id/date5" />
+
+    <TextView
+        android:id="@+id/date7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="134dp"
+        android:text="@string/time8"
+        app:layout_constraintBottom_toTopOf="@+id/progress7"
+        app:layout_constraintEnd_toStartOf="@+id/date6" />
 
 </android.support.constraint.ConstraintLayout>
