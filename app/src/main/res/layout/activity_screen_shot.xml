@@ -203,4 +203,72 @@
         app:layout_constraintBottom_toTopOf="@+id/progress7"
         app:layout_constraintEnd_toStartOf="@+id/date6" />
 
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="32dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/当日积分"
+        app:srcCompat="@drawable/qg4" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="67dp"
+        android:layout_height="269dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Time"
+        app:srcCompat="@drawable/qg5" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="121dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title11"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/当日积分" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="121dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title12"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/title1" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="121dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title13"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/title2" />
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="121dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title14"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/title3" />
+
 </android.support.constraint.ConstraintLayout>
