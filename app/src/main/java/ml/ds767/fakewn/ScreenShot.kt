@@ -42,7 +42,18 @@ class ScreenShot : AppCompatActivity() {
         findViewById<TextView>(R.id.date6).apply { text=sdfmd.format(cal.time)}
         cal.add(Calendar.DAY_OF_MONTH,-1)
         findViewById<TextView>(R.id.date7).apply { text=sdfmd.format(cal.time)}
-
+//时分设置
+        val sdfhm=SimpleDateFormat("HH:mm")
+        cal.setTime(today)
+        val random=Random().nextInt(10)
+        cal.add(Calendar.MINUTE,-random)
+        findViewById<TextView>(R.id.clock1).apply { text=sdfhm.format(cal.time) }
+        cal.add(Calendar.MINUTE,-random)
+        findViewById<TextView>(R.id.clock2).apply { text=sdfhm.format(cal.time) }
+        cal.add(Calendar.MINUTE,-random)
+        findViewById<TextView>(R.id.clock3).apply { text=sdfhm.format(cal.time) }
+        cal.add(Calendar.MINUTE,-random)
+        findViewById<TextView>(R.id.clock4).apply { text=sdfhm.format(cal.time) }
 
     }
 

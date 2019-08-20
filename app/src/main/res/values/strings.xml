@@ -18,4 +18,5 @@
     <string name="time6">08.08</string>
     <string name="time7">08.07</string>
     <string name="time8">08.06</string>
+    <string name="clock">00:00</string>
 </resources>

@@ -271,4 +271,44 @@
         app:layout_constraintEnd_toStartOf="@+id/plus"
         app:layout_constraintTop_toBottomOf="@+id/title3" />
 
+    <TextView
+        android:id="@+id/clock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/clock"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/title1"
+        app:layout_constraintStart_toStartOf="@+id/title1" />
+
+    <TextView
+        android:id="@+id/clock2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/clock"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/title2"
+        app:layout_constraintStart_toStartOf="@+id/title2" />
+
+    <TextView
+        android:id="@+id/clock3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/clock"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/title3"
+        app:layout_constraintStart_toStartOf="@+id/title3" />
+
+    <TextView
+        android:id="@+id/clock4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/clock"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/title4"
+        app:layout_constraintStart_toStartOf="@+id/title4" />
+
 </android.support.constraint.ConstraintLayout>
