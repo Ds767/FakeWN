@@ -129,6 +129,7 @@
         android:layout_marginEnd="9dp"
         android:layout_marginBottom="132dp"
         android:text="@string/time1"
+        android:textColor="#E32416"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/progress"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -140,6 +141,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="134dp"
         android:text="@string/time2"
+        android:textColor="#ccd0d4"
         app:layout_constraintBottom_toTopOf="@+id/progress1"
         app:layout_constraintEnd_toStartOf="@+id/date" />
 
@@ -150,6 +152,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="134dp"
         android:text="@string/time3"
+        android:textColor="#ccd0d4"
         app:layout_constraintBottom_toTopOf="@+id/progress2"
         app:layout_constraintEnd_toStartOf="@+id/date1" />
 
@@ -160,6 +163,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="134dp"
         android:text="@string/time4"
+        android:textColor="#ccd0d4"
         app:layout_constraintBottom_toTopOf="@+id/progress3"
         app:layout_constraintEnd_toStartOf="@+id/date2" />
 
@@ -170,6 +174,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="134dp"
         android:text="@string/time5"
+        android:textColor="#ccd0d4"
         app:layout_constraintBottom_toTopOf="@+id/progress4"
         app:layout_constraintEnd_toStartOf="@+id/date3" />
 
@@ -180,6 +185,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="134dp"
         android:text="@string/time6"
+        android:textColor="#ccd0d4"
         app:layout_constraintBottom_toTopOf="@+id/progress5"
         app:layout_constraintEnd_toStartOf="@+id/date4" />
 
@@ -190,6 +196,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="134dp"
         android:text="@string/time7"
+        android:textColor="#ccd0d4"
         app:layout_constraintBottom_toTopOf="@+id/progress6"
         app:layout_constraintEnd_toStartOf="@+id/date5" />
 
@@ -200,6 +207,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="134dp"
         android:text="@string/time8"
+        android:textColor="#ccd0d4"
         app:layout_constraintBottom_toTopOf="@+id/progress7"
         app:layout_constraintEnd_toStartOf="@+id/date6" />
 
@@ -277,6 +285,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:text="@string/clock"
+        android:textColor="#ABB3BA"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/title1"
         app:layout_constraintStart_toStartOf="@+id/title1" />
@@ -287,6 +296,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:text="@string/clock"
+        android:textColor="#ABB3BA"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/title2"
         app:layout_constraintStart_toStartOf="@+id/title2" />
@@ -297,6 +307,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:text="@string/clock"
+        android:textColor="#ABB3BA"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/title3"
         app:layout_constraintStart_toStartOf="@+id/title3" />
@@ -307,8 +318,105 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:text="@string/clock"
+        android:textColor="#ABB3BA"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/title4"
         app:layout_constraintStart_toStartOf="@+id/title4" />
+
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/score1"
+        android:textColor="#E32416"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/progress"
+        app:layout_constraintStart_toStartOf="@+id/progress" />
+
+    <TextView
+        android:id="@+id/score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/score1"
+        android:textColor="#ccd0d4"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress1"
+        app:layout_constraintStart_toStartOf="@+id/progress1" />
+
+    <TextView
+        android:id="@+id/score3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/score1"
+        android:textColor="#ccd0d4"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress2"
+        app:layout_constraintStart_toStartOf="@+id/progress2" />
+
+    <TextView
+        android:id="@+id/score4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/score1"
+        android:textColor="#ccd0d4"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress3"
+        app:layout_constraintStart_toStartOf="@+id/progress3" />
+
+    <TextView
+        android:id="@+id/score5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/score1"
+        android:textColor="#ccd0d4"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress4"
+        app:layout_constraintStart_toStartOf="@+id/progress4" />
+
+    <TextView
+        android:id="@+id/score6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/score1"
+        android:textColor="#ccd0d4"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress5"
+        app:layout_constraintStart_toStartOf="@+id/progress5" />
+
+    <TextView
+        android:id="@+id/score7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/score1"
+        android:textColor="#ccd0d4"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress6"
+        app:layout_constraintStart_toStartOf="@+id/progress6" />
+
+    <TextView
+        android:id="@+id/score8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/score1"
+        android:textColor="#ccd0d4"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress7"
+        app:layout_constraintStart_toStartOf="@+id/progress7" />
 
 </android.support.constraint.ConstraintLayout>
