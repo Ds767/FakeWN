@@ -6,6 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".ScreenShot">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="327dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorGrey" />
+
     <ImageView
         android:id="@+id/当日积分"
         android:layout_width="84dp"
@@ -481,5 +502,9 @@
         app:layout_constraintBottom_toBottomOf="@+id/progress"
         app:layout_constraintEnd_toStartOf="@+id/progress6"
         app:srcCompat="@drawable/qgx" />
+
+
+
+
 
 </android.support.constraint.ConstraintLayout>
