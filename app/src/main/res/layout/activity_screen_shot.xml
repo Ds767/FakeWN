@@ -28,6 +28,18 @@
         app:srcCompat="@color/colorGrey" />
 
     <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/progress"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/progress1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorRed" />
+
+
+    <ImageView
         android:id="@+id/当日积分"
         android:layout_width="84dp"
         android:layout_height="25dp"
@@ -502,8 +514,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/progress"
         app:layout_constraintEnd_toStartOf="@+id/progress6"
         app:srcCompat="@drawable/qgx" />
-
-
 
 
 
